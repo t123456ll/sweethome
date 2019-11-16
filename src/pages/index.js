@@ -40,13 +40,18 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <h2 className="text-white mt-0">What is SweetHome?</h2>
                 <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p>
+                <p className="text-white-50 mb-4">
+                  <ul>
+                    <li>The easiest way to search and compare more than 500 condo projects, 5,000 floor plans and 200 developers in Toronto and the GTA</li>
+                    <li>Exclusive access to the most comprehensive new house and condo inventory</li>
+                    <li>Find your next new house by price, location, occupancy date, amenities and much more, using an easy-to-use, map-based search engine</li>
+                    <li>Access to free, up-to-date, unbiased info to make the best possible buying decisions</li>
+                    <li>Instant alerts for projects of interest, deals and promotions</li>
+                    <li>New house Buyers and Investors can contact Developers directly or work through an Agent</li>
+                  </ul>
+                </p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
                    onClick={Scroller.handleAnchorScroll}>Get Started!</a>
               </div>
@@ -62,29 +67,29 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
-                  <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                  <h3 className="h4 mb-2">Hot Investments</h3>
+                  <p className="text-muted mb-0">Get Priority Access to the best Investment house before public launch</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                  <h3 className="h4 mb-2">Move-in Now</h3>
+                  <p className="text-muted mb-0">Search from more than 100 New house ready to move into now</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                  <h3 className="h4 mb-2">Promotions and Deals</h3>
+                  <p className="text-muted mb-0">Take advantage and save thousands on your purchase with limited time offers</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                  <h3 className="h4 mb-2">Coming Soon</h3>
+                  <p className="text-muted mb-0">Stay on top of upcoming New house and townhome launches</p>
                 </div>
               </div>
             </div>
