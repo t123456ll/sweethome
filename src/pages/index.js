@@ -104,10 +104,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Frontenac Condos
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Pre–construction Condo at 501 Frontenac St, Kingston
                     </div>
                   </div>
                 </a>
@@ -117,10 +117,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      RAVINA Condos
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Pre–construction Condo at 46 Main St N, Markham
                     </div>
                   </div>
                 </a>
@@ -130,10 +130,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Southside Towns
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Under Construction Townhome at 209 Steeles Ave W, Brampton
                     </div>
                   </div>
                 </a>
@@ -143,10 +143,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      The Mack
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Under Construction Townhome at 77 Eagleview Heights, Vaughan
                     </div>
                   </div>
                 </a>
@@ -156,10 +156,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Ultra Towns
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Pre–construction Townhome at 7823 Dufferin St, Vaughan
                     </div>
                   </div>
                 </a>
@@ -169,10 +169,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
-                      Category
+                      The Way Urban Towns
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Pre–construction Townhome at 2277 South Millway, Mississauga
                     </div>
                   </div>
                 </a>
