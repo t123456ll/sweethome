@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-ivst-js": hot(preferDefault(require("/Users/cindyzheng/Desktop/sweethome/src/pages/ivst.js"))),
   "component---src-pages-movein-js": hot(preferDefault(require("/Users/cindyzheng/Desktop/sweethome/src/pages/movein.js"))),
   "component---src-pages-coming-js": hot(preferDefault(require("/Users/cindyzheng/Desktop/sweethome/src/pages/coming.js"))),
-  "component---src-pages-deals-js": hot(preferDefault(require("/Users/cindyzheng/Desktop/sweethome/src/pages/deals.js")))
+  "component---src-pages-deals-js": hot(preferDefault(require("/Users/cindyzheng/Desktop/sweethome/src/pages/deals.js"))),
+  "component---src-pages-about-js": hot(preferDefault(require("/Users/cindyzheng/Desktop/sweethome/src/pages/about.js")))
 }
 
