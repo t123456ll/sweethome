@@ -2,6 +2,11 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
+
+import Link from "gatsby-link"
+
+
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Scroller from "../components/scroller"
@@ -67,28 +72,28 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Hot Investments</h3>
+                  <Link to = "/ivst/"><h3 className="h4 mb-2">Hot Investments</h3> </Link>
                   <p className="text-muted mb-0">Get Priority Access to the best Investment house before public launch</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Move-in Now</h3>
+                  <Link to = "/movein/"><h3 className="h4 mb-2">Move-in Now</h3></Link>
                   <p className="text-muted mb-0">Search from more than 100 New house ready to move into now</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Promotions and Deals</h3>
+                  <Link to = "/deals/"><h3 className="h4 mb-2">Promotions and Deals</h3></Link>
                   <p className="text-muted mb-0">Take advantage and save thousands on your purchase with limited time offers</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Coming Soon</h3>
+                  <Link to = "/coming/"><h3 className="h4 mb-2">Coming Soon</h3></Link>
                   <p className="text-muted mb-0">Stay on top of upcoming New house and townhome launches</p>
                 </div>
               </div>
@@ -183,8 +188,8 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section bg-dark text-white">
           <div className="container text-center">
-            <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+            <h2 className="mb-4">Find you dream house at SweetHouse</h2>
+            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Find Now!</a>
           </div>
         </section>
 

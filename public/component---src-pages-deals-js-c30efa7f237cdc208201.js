@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{qLWF:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),c=t.n(a),o=t("+ZDr"),r=t.n(o);e.default=function(){return c.a.createElement("div",null,c.a.createElement(r.a,{to:"/"}," Go Back "))}}}]);
+//# sourceMappingURL=component---src-pages-deals-js-c30efa7f237cdc208201.js.map
