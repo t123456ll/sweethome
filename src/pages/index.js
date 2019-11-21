@@ -189,7 +189,8 @@ export default class IndexPage extends React.Component {
         <section className="page-section bg-dark text-white">
           <div className="container text-center">
             <h2 className="mb-4">Find you dream house at SweetHouse</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Find Now!</a>
+            <Link to = "/movein"><a className="btn btn-light btn-xl">Find Now!</a></Link>
+            {/* <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Find Now!</a> */}
           </div>
         </section>
 
@@ -209,6 +210,12 @@ export default class IndexPage extends React.Component {
                 <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
                 <div>+1 (202) 555-0149</div>
               </div>
+
+              <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                <i className="fas fa-smile fa-3x mb-3 text-muted"></i>
+                <div><Link to = "/contact"><a className="btn btn-light btn-xl">Contact Now!</a></Link></div>
+              </div>
+
               <div className="col-lg-4 mr-auto text-center">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
                 <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>

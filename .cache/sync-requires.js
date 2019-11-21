@@ -5,12 +5,16 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/404.js"))),
-  "component---src-pages-about-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/about.js"))),
-  "component---src-pages-coming-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/coming.js"))),
-  "component---src-pages-deals-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/deals.js"))),
+  "component---src-pages-about-index-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/about/index.js"))),
+  "component---src-pages-coming-index-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/coming/index.js"))),
+  "component---src-pages-contact-file-upload-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/contact/file-upload.js"))),
+  "component---src-pages-contact-index-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/contact/index.js"))),
+  "component---src-pages-contact-thanks-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/contact/thanks.js"))),
+  "component---src-pages-deals-index-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/deals/index.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/index.js"))),
-  "component---src-pages-ivst-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/ivst.js"))),
-  "component---src-pages-movein-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/movein.js")))
+  "component---src-pages-ivst-index-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/ivst/index.js"))),
+  "component---src-pages-movein-index-js": hot(preferDefault(require("/Users/shuolintian/Desktop/sweethome/src/pages/movein/index.js")))
 }
 
